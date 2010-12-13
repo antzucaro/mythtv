@@ -1,0 +1,183 @@
+################ Power Button ############
+begin
+prog = irexec
+button = Power
+repeat = 3
+config = /home/mythtv/scripts/mythpowerbutton.sh
+end
+
+################ Numbers #################
+begin
+prog = mythtv
+button = 0
+repeat = 3
+config = 0
+end
+
+begin
+prog = mythtv
+button = 1
+repeat = 3
+config = 1
+end
+
+begin
+prog = mythtv
+button = 2
+repeat = 3
+config = 2
+end
+
+begin
+prog = mythtv
+button = 3
+repeat = 3
+config = 3
+end
+
+begin
+prog = mythtv
+button = 4
+repeat = 3
+config = 4
+end
+
+begin
+prog = mythtv
+button = 5
+repeat = 3
+config = 5
+end
+
+begin
+prog = mythtv
+button = 6
+repeat = 3
+config = 6
+end
+
+begin
+prog = mythtv
+button = 7
+repeat = 3
+config = 7
+end
+
+begin
+prog = mythtv
+button = 8
+repeat = 3
+config = 8
+end
+
+begin
+prog = mythtv
+button = 9
+repeat = 3
+config = 9
+end
+
+################### /NUMBERS ######################
+
+################### Arrows ######################
+
+begin
+prog = mythtv
+button = Left
+repeat = 3
+config = Left 
+end
+
+begin
+prog = mythtv
+button = Right
+repeat = 3
+config = Right
+end
+
+begin
+prog = mythtv
+button = Up
+repeat = 3
+config = Up
+end
+
+begin
+prog = mythtv
+button = Down
+repeat = 3
+config = Down
+end
+
+################### /Arrows ######################
+
+begin
+prog = mythtv
+button = Ok
+repeat = 3
+config = Space
+end
+
+begin
+prog = mythtv
+button = Play
+repeat = 3
+config = Return
+end
+
+begin
+prog = mythtv
+button = Stop
+repeat = 3
+config = Esc
+end
+
+begin
+prog = mythtv
+button = FFWD
+repeat = 3
+config = >
+end
+
+begin
+prog = mythtv
+button = Rewind
+repeat = 3
+config = <
+end
+
+begin
+prog = mythtv
+button = Record
+repeat = 3
+config = R
+end
+
+begin
+prog = mythtv
+button = Exit
+repeat = 3
+config = Escape
+end
+
+begin
+prog = mythtv
+button = Info
+repeat = 3
+config = m
+end
+
+begin
+prog = mythtv
+button = Pause
+repeat = 3
+config = p
+end
+
+begin
+prog = mythtv
+button = Caption
+repeat = 3
+config = i
+end
+

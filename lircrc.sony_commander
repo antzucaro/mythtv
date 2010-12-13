@@ -1,0 +1,110 @@
+################ Power Button ############
+begin
+prog = irexec
+button = Power
+repeat = 3
+config = /home/mythtv/scripts/mythpowerbutton.sh
+end
+
+################### Arrows ######################
+
+begin
+prog = mythtv
+button = Left
+repeat = 3
+config = Left 
+end
+
+begin
+prog = mythtv
+button = Right
+repeat = 3
+config = Right
+end
+
+begin
+prog = mythtv
+button = Up
+repeat = 3
+config = Up
+end
+
+begin
+prog = mythtv
+button = Down
+repeat = 3
+config = Down
+end
+
+################### /Arrows ######################
+
+begin
+prog = mythtv
+button = OK
+repeat = 3
+config = Space
+end
+
+begin
+prog = mythtv
+button = Play
+repeat = 3
+config = Return
+end
+
+begin
+prog = mythtv
+button = Stop
+repeat = 3
+config = Esc
+end
+
+begin
+prog = mythtv
+button = FastForward
+repeat = 3
+config = >
+end
+
+begin
+prog = mythtv
+button = Rewind
+repeat = 3
+config = <
+end
+
+#begin
+#prog = mythtv
+#button = Record
+#repeat = 3
+#config = R
+#end
+
+begin
+prog = mythtv
+button = Exit
+repeat = 3
+config = Escape
+end
+
+begin
+prog = mythtv
+button = Menu
+repeat = 3
+config = m
+end
+
+begin
+prog = mythtv
+button = Pause
+repeat = 3
+config = p
+end
+
+begin
+prog = mythtv
+button = Info
+repeat = 3
+config = i
+end
+

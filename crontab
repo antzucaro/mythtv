@@ -1,0 +1,1 @@
+30 02 * * * /home/mythtv/scripts/dump_mysqldb.py mythconverg 5 >> /home/mythtv/mythbackup.log

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [$1 -eq ""]
+then
+  echo "select title, basename, description from recorded order by basename\G" | mysql -D mythconverg
+else
+  echo "select title, basename, description from recorded where title like '$i' order by basename\G" | mysql -D mythconverg
+fi
